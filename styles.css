@@ -1,0 +1,129 @@
+* {
+    font-family: "Bungee Spice", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #17181c;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    margin: 1rem 0;
+    border: 0;
+}
+
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+button {
+    border-radius: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.patternBtn {
+    width: 30rem;
+    height: 14rem;
+    border-radius: 35px;
+    border: 3px solid #000;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.functionalBtn {
+    font-size: 1.5rem;
+    background-color: #C1B0F7;
+    margin: 0 0.6rem;
+    padding: 0.8rem;
+    border: 3px solid #000;
+}
+
+.functionalBtn:hover,
+.functionalBtn:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+.functionalBtn {
+    font-size: 1.5rem;
+    background-color: #C1B0F7;
+    margin: 0 0.6rem;
+    padding: 0.8rem;
+    border: 3px solid #000;
+}
+
+.difficultyBtn {
+    font-size: 1rem;
+    background-color: aquamarine;
+}
+
+#firstBtn {
+    background-color: red;
+}
+
+#secondBtn {
+    background-color: blue;
+}
+
+#thirdBtn {
+    background-color: green;
+}
+
+#fourthBtn {
+    background-color: yellow;
+}
+
+#scoreContainer {
+    font-size: 2rem;
+}
+
+#difficultySelector {
+    margin-top: 2rem;
+}
+
+#instructions {
+    text-align: center;
+    font-size: 1rem;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    padding: 0.5rem 0px;
+}
+
+#score {
+    font-size: 12rem;
+}
